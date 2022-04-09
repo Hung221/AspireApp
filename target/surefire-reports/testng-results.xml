@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ASPIRE_APP_TEST" duration-ms="47143" started-at="2022-04-09T23:43:28 ICT" finished-at="2022-04-09T23:44:15 ICT">
+    <groups>
+    </groups>
+    <test name="Run on chrome" duration-ms="47143" started-at="2022-04-09T23:43:28 ICT" finished-at="2022-04-09T23:44:15 ICT">
+      <class name="TCs.TC_Verify_Manufacturing_Created_Success">
+        <test-method status="PASS" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:TCs.TC_Verify_Manufacturing_Created_Success@58f174d9]" name="beforeClass" is-config="true" duration-ms="28895" started-at="2022-04-09T23:43:28 ICT" finished-at="2022-04-09T23:43:57 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://aspireapp.odoo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="verifyCreateManufacturingSuccess()[pri:0, instance:TCs.TC_Verify_Manufacturing_Created_Success@58f174d9]" name="verifyCreateManufacturingSuccess" duration-ms="16955" started-at="2022-04-09T23:43:57 ICT" finished-at="2022-04-09T23:44:14 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateManufacturingSuccess -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TCs.TC_Verify_Manufacturing_Created_Success@58f174d9]" name="closeBrowser" is-config="true" duration-ms="969" started-at="2022-04-09T23:44:14 ICT" finished-at="2022-04-09T23:44:15 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TCs.TC_Verify_Manufacturing_Created_Success -->
+    </test> <!-- Run on chrome -->
+  </suite> <!-- ASPIRE_APP_TEST -->
+</testng-results>

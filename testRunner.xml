@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name ="ASPIRE_APP_TEST" parallel = "false" thread-count="3">
+    <listeners>
+        <listener class-name="reportConfig.AllureTestListener" />
+    </listeners>
+    <test name = "Run on chrome">
+        <parameter name="browser" value="chrome" />
+        <parameter name="url" value="https://aspireapp.odoo.com"/>
+        <classes>
+            <class name="TCs.TC_Verify_Manufacturing_Created_Success" />
+        </classes>
+    </test>
+</suite>
